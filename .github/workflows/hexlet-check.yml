@@ -1,0 +1,10 @@
+name: GitHub Actions Demo My
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: make install
+      - run: make test
+      - run: make lint
+      
